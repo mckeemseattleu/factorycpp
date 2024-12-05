@@ -7,6 +7,7 @@
 #include <string.h>
 // Concrete product class - Circle
 // Abstract product classAdvantages of the Factory Method
+/*
 Below are the main advantages of factory method design pattern: Separates
 creation logic from client code, improving flexibility
 .
@@ -34,7 +35,7 @@ if
  applied too broadly
 .
 Factory logic can be harder to test
-.
+*/
 class Shape {
 public:
     virtual void draw() = 0;

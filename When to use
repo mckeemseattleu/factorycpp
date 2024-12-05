@@ -1,0 +1,17 @@
+Advantages of the Factory Method
+Below are the main advantages of factory method design pattern:
+
+Separates creation logic from client code, improving flexibility.
+New product types can be added easily.
+Simplifies unit testing by allowing mock product creation.
+Centralizes object creation logic across the application.
+Hides specific product classes from clients, reducing dependency.
+Disadvantages of the Factory Method
+Below are the main advantages of factory method design pattern:
+
+Adds more classes and interfaces, which can complicate maintenance.
+Slight performance impacts due to polymorphism.
+Concrete creators are linked to their products.
+Clients need knowledge of specific subclasses.
+May lead to unnecessary complexity if applied too broadly.
+Factory logic can be harder to test.
